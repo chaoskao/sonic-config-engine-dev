@@ -7,20 +7,20 @@ pip install --upgrade pip
 pip install virtualenv  
 
 ## HOWTO
-git clone https://github.com/chaoskao/sonic-config-engine-dev.git  
-cd sonic-config-engine-dev  
-git submodule init  
-git submodule update  
-cp -r sonic-buildimage/src/sonic-config-engine/ sonic-config-engine
+    git clone https://github.com/chaoskao/sonic-config-engine-dev.git  
+    cd sonic-config-engine-dev  
+    git submodule init  
+    git submodule update  
+    cp -r sonic-buildimage/src/sonic-config-engine/ sonic-config-engine
+    
+    # setup virtual environment
+    virtualenv --no-site-packages virEnv  
+    source virEnv/bin/activate
 
-## setup virtual environment
-virtualenv --no-site-packages virEnv  
-source virEnv/bin/activate
+    # install dependency
+    pip install -r requirements.txt
 
-## install dependency
-pip install -r requirements.txt
-
-## install sonic dependency
-cd sonic-py-swsssdk/  
-python setup.py build  
-python setup.py install  
+    # install sonic dependency
+    cd sonic-py-swsssdk/  
+    python setup.py build  
+    python setup.py install  
