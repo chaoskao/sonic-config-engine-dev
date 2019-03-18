@@ -1,3 +1,0 @@
-[submodule "sonic-buildimage"]
-	path = sonic-buildimage
-	url = https://github.com/Azure/sonic-buildimage.git
