@@ -24,7 +24,3 @@ pip install -r requirements.txt
 cd sonic-py-swsssdk/  
 python setup.py build  
 python setup.py install  
-
-## install test dependency
-pip install py  
-pip install pytest
