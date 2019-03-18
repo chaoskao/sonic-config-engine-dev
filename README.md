@@ -11,7 +11,7 @@ pip install --upgrade pip
 pip install virtualenv  
 
 ## start virtual environment
-virtualenv virEnv  
+virtualenv --no-site-packages virEnv  
 source virEnv/bin/activate
 
 ## install dependency
