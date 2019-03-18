@@ -2,9 +2,9 @@
 sonic-config-engine-dev is a python project to develop sonic-config-engine, this project also include sonic-py-swsssdk
 
 ## setup environment
-sudo apt install python-pip  
-pip install --upgrade pip  
-pip install virtualenv  
+    sudo apt install python-pip  
+    pip install --upgrade pip  
+    pip install virtualenv  
 
 ## HOWTO
     git clone https://github.com/chaoskao/sonic-config-engine-dev.git  
