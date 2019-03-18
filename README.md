@@ -8,7 +8,7 @@ pip install virtualenv
 
 ## HOWTO
 git clone https://github.com/chaoskao/sonic-config-engine-dev.git  
-cd sonic-config-engine  
+cd sonic-config-engine-dev  
 git submodule init  
 git submodule update  
 cp -r sonic-buildimage/src/sonic-config-engine/ sonic-config-engine
