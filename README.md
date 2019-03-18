@@ -9,7 +9,9 @@ cp -r sonic-buildimage/src/sonic-config-engine/ sonic-config-engine
 sudo apt install python-pip  
 pip install --upgrade pip  
 pip install virtualenv  
-virtualenv virEnv  
+
+## start virtual environment
+virtualenv --no-site-packages virEnv  
 source virEnv/bin/activate
 
 ## install dependency
