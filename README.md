@@ -1,7 +1,7 @@
 ## Introduction
 sonic-config-engine-dev is a python project to develop sonic-config-engine, this project also include sonic-py-swsssdk
 
-## download code
+## download code & initial submodule
     git clone https://github.com/chaoskao/sonic-config-engine-dev.git  
     cd sonic-config-engine-dev  
     git submodule init  
