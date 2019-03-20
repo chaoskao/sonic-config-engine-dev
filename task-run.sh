@@ -6,11 +6,11 @@ case "$1" in
         
         ;;
   
-  check)
+  test)
         
         ;;
   *)
-        echo "Usage: $N {install|build}" >&2
+        echo "Usage: $N {install|build|test}" >&2
         exit 1
         ;;
 esac
